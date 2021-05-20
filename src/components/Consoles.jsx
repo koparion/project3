@@ -32,7 +32,7 @@ function Games() {
   return (
     <div>
       {selectedConsoles}
-      <div className="container fw-bold text-center bg-cyan text-whdite pt-5">
+      <div className="container fw-bold text-center bg-cyan text-white pt-5">
             <h1>Top Gaming Systems</h1>
           </div>
       {consoleSystems.map((consoleSystem) => {
